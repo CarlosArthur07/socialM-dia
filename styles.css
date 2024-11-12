@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --bg-body: #242a32;
+    --color-primary: #131219;
+    --text-color:#f4f3f3;
+    --text-form: #92929D;
+    --start-yellow: #FFBB3A;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; 
+}
+.Perfil-completo{
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 8px 8px 8px 8px;
+  height: 550px;
+  width: 370px;
+
+}
+.Perfil-container{
+    margin-bottom: 80px;
+    margin-top: -30px;
+    display: flex;
+    justify-content:center;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.Perfil3-container{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size:14px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+.Perfil2-container{
+    margin-top: 10px;
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: -70px;
+    color:  hsl(75,94%,57%) ;
+}
+#image-redonda{
+    margin: 140px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+}
+.GitHub-container button{
+    background-color:  hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid 2px  hsl(0, 0%, 20%);
+    margin: 0;
+    margin-bottom: 25px;
+    margin-top:-60px;
+    margin-left: 35px;
+    border-radius: 8px 8px 8px 8px;
+
+}
+.Desenvolvedor-container button{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid 2px hsl(0, 0%, 20%);
+    margin: 0;
+    margin-bottom: 25px;
+    margin-top: -60px;
+    margin-left: 35px;
+    border-radius: 8px 8px 8px 8px;
+}
+.Linkedin-container button
+{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid 2px hsl(0, 0%, 20%);
+    margin: 0;
+    margin-bottom: 25px;
+    margin-top: -60px;
+    margin-left: 35px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.Twitter-container button
+{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid 2px hsl(0, 0%, 20%);
+    margin: 0;
+    margin-bottom: 25px;
+    margin-top: -60px;
+    margin-left: 35px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.Instagram-container button
+{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid 2px hsl(0, 0%, 20%);
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: -60px;
+    margin-left: 35px;
+    border-radius: 8px 8px 8px 8px;
+}
+button:hover
+{   color: black;
+    background-color: hsl(75,94%,57%) ;
+}
+
+#GitHub
+{
+   color: hsl(0, 0%, 100%);
+}
+#Desenvolvedor
+{
+    color: hsl(0, 0%, 100%);
+}
+#Linkedin
+{
+    color:  hsl(0, 0%, 100%);
+}
+#Twitter
+{
+    color:  hsl(0, 0%, 100%);
+}
+#Instagram
+{
+    color: hsl(0, 0%, 100%);
+}
